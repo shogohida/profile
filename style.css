@@ -38,32 +38,13 @@ a:hover{
   color: #220901;
 }
 
-
-@media (max-width: : 500px) {
-  .card {
-    width: 300px;
-    margin: 40px auto;
-    padding: 24px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    border-radius: 5px;
-  }
-}
-
 .card {
-  width: 500px;
   margin: 40px auto;
   padding: 24px;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
   border-radius: 5px;
 }
 
-
-@media (max-width: 500px) {
-  .container {
-    width: 300px;
-    margin: 0 auto;
-  }
-}
 
 .container {
   width: 500px;
@@ -93,4 +74,11 @@ a:hover{
 .button-blue:hover{
   background-color: black;
   color: white;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
 }
